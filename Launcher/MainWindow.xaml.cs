@@ -22,7 +22,6 @@ namespace Launcher {
         public string gamePath;
 
         public MainWindow() {
-            //TODO: Remove this after implementing/**/
             InitializeComponent();
         }
 
@@ -33,6 +32,7 @@ namespace Launcher {
         private void SelectGame(string game) {
             isGameSelected = true;
             gamePath = GameLauncher.GetGamePath(game);
+            //TODO: Remove because unnecessary
             PlaceholderLabel.Content = gamePath;
         }
 

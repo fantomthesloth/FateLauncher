@@ -16,6 +16,7 @@
         <Label x:Name="VersionLabel" Content="v0.5" HorizontalAlignment="Left" Margin="340,14,0,0" VerticalAlignment="Top" FontSize="10" RenderTransformOrigin="0.417,0.667" Height="24" Width="30" Foreground="#FF878787"/>
         <Button x:Name="CloseButton" Content="×" Margin="0" VerticalAlignment="Top" RenderTransformOrigin="0.533,0.75" Click="Button_Click" FontSize="18" BorderThickness="0" Background="{x:Null}" Foreground="Red" HorizontalAlignment="Right" Width="18" BorderBrush="{x:Null}" Grid.Column="1"/>
         <Button x:Name="LaunchGameButton" Content="Play" Margin="0,0,10,24" Background="#FF497CC5" BorderThickness="0" BorderBrush="{x:Null}" Foreground="White" HorizontalAlignment="Right" Width="132" Height="30" VerticalAlignment="Bottom" Click="LaunchGameButton_Click" Grid.Column="1"/>
+        <!--TODO: Remove placeholder images and change to final ones-->
         <StackPanel Margin="0,84,0,96" Orientation="Horizontal" Height="270" VerticalAlignment="Center" Grid.ColumnSpan="2">
             <StackPanel Height="270" Width="190" Margin="55,0,0,0">
                 <StackPanel.Background>
