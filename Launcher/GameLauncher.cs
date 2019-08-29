@@ -13,6 +13,8 @@ namespace Launcher {
             Process.Start(path);
         }
 
+
+        // Szia lawful
         public static string GetGamePath(string gameName) {
             string currentPath = Directory.GetCurrentDirectory();
             string[] gamePath = Directory.GetFiles(currentPath, gameName + ".exe", SearchOption.AllDirectories);
